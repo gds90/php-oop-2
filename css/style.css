@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.card {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-vector/seamless-colorful-pattern-with-dogs-paws-background-pet-shop-veterinary-clinic-pet-store-zoo-shelter-flat-style-design-vector-illustration_562639-773.jpg");
+    background-repeat: repeat;
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(118, 168, 170);
+    border-radius: 20px;
+}
