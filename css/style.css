@@ -23,3 +23,8 @@ h1 {
     background-color: rgb(118, 168, 170);
     border-radius: 20px;
 }
+
+.cod_art p {
+    font-size: 12px;
+    color: gray;
+}
