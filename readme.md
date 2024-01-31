@@ -17,7 +17,7 @@ Ecco le informazioni sui prodotti da mostrare
 Royal Canin Mini Adult
 https://arcaplanet.vtexassets.com/arquivos/ids/284621/Mini-Adult.jpg?v=638182891693570000
 
-Almo Nature Holistic Maintenance Medium Large Tonno e Riso
+Almo Nature Holistic Maintenance Medium Large Pollo e Riso
 https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg
 
 Almo Nature Cat Daily Lattina
