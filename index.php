@@ -49,7 +49,7 @@ require_once __DIR__ . '/db.php';
                                     <p>Cod. articolo: <?php echo $product->getCode() ?></p>
                                 </div>
                                 <div class="button text-center ">
-                                    <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
+                                    <a href="#" class="btn btn-outline-info">Aggiungi al carrello</a>
 
                                 </div>
                             </div>
