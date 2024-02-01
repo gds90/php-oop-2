@@ -24,10 +24,9 @@ require_once __DIR__ . '/db.php';
                     <h1>L'arca di Noè</h1>
                 </div>
                 <?php foreach ($products as $product) { ?>
-
                     <div class="col-3 mb-4">
-                        <div class="card">
-                            <img src=<?php echo $product->image ?> class="card-img-top" alt="Immagine prodotto">
+                        <div class="card h-100 ">
+                            <img src=<?php echo $product->image ?> class="card-img-top" alt=<?php echo $product->description ?>>
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $product->brand ?></h5>
                                 <p class="card-text fs-3"><?php echo $product->description ?></p>
@@ -48,9 +47,8 @@ require_once __DIR__ . '/db.php';
                                 <div class="cod_art">
                                     <p>Cod. articolo: <?php echo $product->getCode() ?></p>
                                 </div>
-                                <div class="button text-center ">
+                                <div class="button text-center">
                                     <a href="#" class="btn btn-outline-info">Aggiungi al carrello</a>
-
                                 </div>
                             </div>
                         </div>

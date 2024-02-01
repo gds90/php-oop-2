@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/Categoria.php';
 // dichiaro la classe Prodotto
 class Prodotto
 {
@@ -10,11 +11,11 @@ class Prodotto
     public $description;
 
     // costruttore della classe Prodotto
-    public function __construct($_brand, $_price, $_image, Categoria $_category, $_description)
+    public function __construct(String $_brand, Float $_price, String $_image, Categoria $_category, String $_description)
     {
         $this->code = $this->randomCode();
         $this->brand = $_brand;
-        $this->price = $_price;
+        $this->price = number_format($_price, 2);
         $this->image = $_image;
         $this->category = $_category;
         $this->description = $_description;
@@ -42,16 +43,5 @@ class Prodotto
     public function getCode()
     {
         return $this->code;
-    }
-}
-// dichiaro la classe Categoria
-class Categoria
-{
-    public $name;
-
-    // costruttore della classe Categoria
-    function __construct($_name)
-    {
-        $this->name = $_name;
     }
 }

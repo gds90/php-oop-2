@@ -12,6 +12,9 @@ $cat = new Categoria("Gatto");
 $bird = new Categoria("Uccelli");
 $fish = new Categoria("Pesci");
 
+// $categories = ['cane' => new Categoria("Cane"), 'gatto' => new Categoria("Gatto"), 'uccelli' => new Categoria("Uccelli"), 'pesci' => new Categoria("Pesci")];
+// quando poi vado a recuperarla nella creazione del prodotto: $categories['cane'];
+
 // creo le istanze dei prodotti
 $product_1 = new Cibo("Royal Canin", 40.99, "https://arcaplanet.vtexassets.com/arquivos/ids/284621/Mini-Adult.jpg?v=638182891693570000", $dog, "Mini Adult", "Crocchette/Secco", "Manzo");
 $product_2 = new Cibo("Almo Nature", 29.90, "https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-dog-adult-medium-pollo-e-riso.jpg", $dog, "Holistic Maintenance Medium Large", "Crocchette/Secco", "Pollo e riso");

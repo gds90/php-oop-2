@@ -6,7 +6,7 @@ class Gioco extends Prodotto
     public $made_of;
 
     // costruttore della sottoclasse Gioco
-    function __construct($_brand, $_price, $_image, Categoria $_category, $_description, $_made_for, $_made_of)
+    function __construct(String $_brand, Float $_price, String $_image, Categoria $_category, String $_description, String $_made_for, String $_made_of)
     {
         parent::__construct($_brand, $_price, $_image, $_category, $_description);
         $this->made_for = $_made_for;
